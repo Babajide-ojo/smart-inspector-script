@@ -9,10 +9,14 @@ let password = process.env.PASSWORD;
 
 // forms and new collections id
 let form_and_corr_col_ids = {
-  first_pair: {
-   form_id: 'ej71mxjx',
-   col_id: 'xl1vqel2',
+  student_register_form: {
+   form_id: '1r0mpvly',
+   col_id: 'new collection id', // The id of the new collection that was created.
   },
+  faq_navigator_form: {
+    form_id: 'vr5mq0j1',
+    col_id: 'new collection id', // The id of the new collection that was created.
+   },
 }
 
 for (let item in form_and_corr_col_ids) {

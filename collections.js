@@ -11,7 +11,7 @@ console.log('processing request...')
 let collection_ids = {
   faq_navigator: 'mj8g55ly',
   student_register: '8rdo96jx',
-  faq: '5rgv3drw',
+  faq: '5rgv3drw', // slug name already exist for this so it should through an error message.
 }
 
 for (let collection_id in collection_ids) {
