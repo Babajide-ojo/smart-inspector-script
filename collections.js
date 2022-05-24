@@ -51,7 +51,7 @@ for (let collection_id in collection_ids) {
               console.log(`collection id = ${collection_ids[collection_id]} : slug name already exists for collection with id ${all_collections[j].id}`)
               console.log("===============================");
               console.log(" ");
-            
+
             } else {
               // create new collection
               let headers = {
@@ -143,16 +143,16 @@ for (let collection_id in collection_ids) {
                                   console.log(`attributes created successfully for new collection with id = ${new_collection_id}`)
                                   console.log("===============================");
                                   console.log(" ");
-                          
+
                                 }
-                        
+
                               }
 
                             }
 
                             request(options, createNewAttributes)
                           }
-                     
+
                         } else {
                           console.log(error)
                         }
